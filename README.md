@@ -1,5 +1,5 @@
 # GeoUtil.js
-Distances both Euclidean and spherical. Efficient (**2-5us speed**). Tiny. (**228 bytes gzipped**)
+Compute Euclidean and spherical distances. Efficient (**2-5us speed**). Tiny. (**228 bytes gzipped**)
 
 # Quick start
 
