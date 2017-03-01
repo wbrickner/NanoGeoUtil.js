@@ -1,5 +1,5 @@
 # NanoGeoUtil.js
-Compute Euclidean and spherical distances. **CRAZY FAST** (slowest function ~_160 nanoseconds, meaning ~6M ops/sec_). **Tiny** (_248 bytes gzipped_).
+Compute Euclidean and spherical distances. **CRAZY FAST** (slowest function ~_160 nanoseconds, meaning ~6.5M ops/sec_). **TINY** (_248 bytes gzipped_).
 
 # Quick start
 It's as easy as...
