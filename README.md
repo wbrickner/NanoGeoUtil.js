@@ -9,11 +9,13 @@ It's as easy as...
 ```
 # Documentation
 ### Sphere Distance
+The distance between two points on the surface of a sphere (the earth)
 ```javascript
 var distanceInMeters = GeoUtil.sphereDistance(latitudeA, longitudeA, latitudeB, longitudeB);
 ```
 
 ### Euclidean Distance
+The distance between two points on a flat plane
 ```javascript
 var distanceInUnits = GeoUtil.euclidDistance(x1, y1, x2, y2);
 ```
