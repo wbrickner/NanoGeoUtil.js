@@ -34,7 +34,7 @@ var kilometers = NanoGeoUtil.miToKm(10);
 ```
 **Performance**: `12.50ns` = `80000000 op/s`
 
-###Performance Note
+### Performance Note
 I've tested performance on my `MacBook Pro (Retina, 13-inch, Late 2012)` (`2.5 GHz Intel Core i5; 8 GB 1600 MHz DDR3`). _Performance may be wildly different on your device_.  If you navigate to the HTML file in the `performance_test` directory, I'd be very interested to hear the results (open the developer console to view them).
 
 # License
