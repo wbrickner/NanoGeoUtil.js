@@ -1,5 +1,5 @@
 # NanoGeoUtil.js
-Compute Euclidean and spherical distances. **CRAZY FAST** (slowest function ~_160 nanoseconds, meaning ~6.5M ops/sec_). **TINY** (_248 bytes gzipped_).
+Compute Euclidean and spherical distances. **VERY FAST** (slowest function _~160 nanoseconds, meaning ~6.5M ops/sec_). **TINY** (_248 bytes gzipped_).
 
 # Quick start
 It's as easy as...
@@ -14,7 +14,7 @@ var distanceInMeters = NanoGeoUtil.sphereDistance(latitudeA, longitudeA, latitud
 ```
 **Performance**: `153.69ns` = `6506604 op/s`
 ### Euclidean Distance
-The distance between two points on a flat plane
+The distance between two points on a flat plane (_note: a good approximation of the sphereDistance in small distances_)
 ```javascript
 var distanceInUnits = NanoGeoUtil.euclidDistance(x1, y1, x2, y2);
 ```
